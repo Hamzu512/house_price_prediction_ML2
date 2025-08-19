@@ -1,6 +1,6 @@
 # 🏠 House Price Prediction (Lahore, Pakistan)
 
-This project predicts **House prices in Lahore** based on features such as area size, number of bedrooms, bathrooms, and location.
+This Machine learning project predicts **House prices in Lahore** based on features such as area size, number of bedrooms, bathrooms, and location with over **83%** accuracy.
 
 ## 🚀 Features
 - Converts **Kanal/Marla** into square feet automatically.
@@ -9,5 +9,5 @@ This project predicts **House prices in Lahore** based on features such as area 
 - Uses a **Random Forest Regressor** inside an sklearn `Pipeline`.
 
 # Requirements
-pandas
-scikit-learn
+- pandas
+- scikit-learn
