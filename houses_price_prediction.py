@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 # Loading dataset
-house_prices_df = pd.read_csv("data/lahore_housing_prices.csv")
+house_prices_df = pd.read_csv("lahore_housing_prices.csv")
 # Creating separate columns for area, city and province
 house_prices_df[['AreaName', 'City', 'Province']] = house_prices_df['Location'].str.split(",", expand=True)
 house_prices_df['AreaName'] = house_prices_df['AreaName'].str.strip()
@@ -80,3 +80,4 @@ if __name__ == "__main__":
         check = input("Do you want to predict more? (yes/no): ").lower()
         if check == 'no':
             break
+
